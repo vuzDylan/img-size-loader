@@ -1,0 +1,39 @@
+{
+  "name": "img-size-loader",
+  "version": "1.0.0",
+  "description": "Uses url-loader to load images but add extra exports for the height and width of the image",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/webpack --config ./test/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "image",
+    "img",
+    "width",
+    "height"
+  ],
+  "author": "Dylan Vuz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuzDylan/img-size-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/webpack-contrib/url-loader/issues"
+  },
+  "homepage": "https://github.com/webpack-contrib/url-loader",
+  "peerDependencies": {
+    "url-loader": "*",
+    "file-loader": "*"
+  },
+  "devDependencies": {
+    "file-loader": "^0.11.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "image-size": "^0.5.5"
+  }
+}
